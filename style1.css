@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px 60px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-size: bolder;
+}
+.logo img{
+   width: 400;
+  
+   height: auto;
+}
+
+.hero{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background-color: rgb(132, 198, 210);
+}
+
+.text h2{
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.text p{
+    margin-bottom: 30px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+
+.hero button:hover{
+    background-color: rgb(167, 185, 201);
+}
+.features{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 40px;
+    
+    text-align: center;
+   
+}
+.feature{
+    flex: 1 1 250px;
+    background-color: rgb(167, 202, 202);
+    padding: 40px 20px;
+    border-radius: 10px;
+    background-color: rgb(163, 200, 202);
+    color: black;
+    margin: 2em;
+}
+.product-gallery{
+    background-color: rgb(231,231,241);
+    padding: 40px 20px;
+    text-align: center;
+}
+.product-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.product-gallery h2{
+    background-color: rgb(231,231,241);
+    color: black;
+}
+.product-card{
+    background-color:rgb(190, 157, 157);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(121, 95, 95);
+    transition: .3s ease;
+}
+.product-card:hover{
+    transform: scale(1.1,1.1);
+}
+.update{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+input[type="text"]{
+    width: 250px;
+    height: 30px;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
